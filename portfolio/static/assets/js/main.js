@@ -386,7 +386,7 @@ $(function() {
 	}
 });
 
-
+// Document ready
  $(document).ready(function() {
         $('#rotate').rotaterator({fadeSpeed:500, pauseSpeed:600});
         $('.more_info').hide();

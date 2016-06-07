@@ -1085,11 +1085,17 @@
 			padding-right: 0;
 		}
 
+	.mobile_return {
+		display: none;
+	}
+
 /* Panels */
 
 	#main {
 		position: relative;
-		overflow: inherit;
+		display: flex;
+		flex-direction: column;
+		overflow: auto;
 	}
 
 	.panel {
@@ -1375,7 +1381,7 @@
 			#me {
 				padding: 0;
 				height: 20em;
-				overflow: hidden;
+				overflow: auto;
 			}
 
 				#me .pic {
@@ -1556,6 +1562,10 @@
 					#nav a span {
 						display: none;
 					}
+
+			.mobile_return {
+				display: inline-block;
+			}
 
 		/* Panels */
 
