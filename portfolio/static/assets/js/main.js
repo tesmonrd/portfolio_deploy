@@ -386,6 +386,10 @@ $(function() {
 	}
 });
 
+// Loading AJAX spinner
+$(window).load(function(){
+	$('#cover').fadeOut(10000);
+})
 
  $(document).ready(function() {
         $('#rotate').rotaterator({fadeSpeed:500, pauseSpeed:600});

@@ -824,6 +824,12 @@
 		text-align: center;
 	}
 
+	#cover {
+		background: url("http://loading.io/loader/?use=eyJzaXplIjo2MCwic3BlZWQiOiIyIiwiY2JrIjoiI2ZmZmZmZiIsImMxIjoiI2ZmNTAwMCIsImMyIjoiI2ZmY2MwOCIsImMzIjoiNyIsInR5cGUiOiJyaXBwbGUifQ==") no-repeat scroll center center;
+		position: absolute;
+		height: 100%;
+		width: 100%;
+	}
 /* Table */
 
 	table {
