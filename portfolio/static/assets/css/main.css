@@ -1093,8 +1093,6 @@
 
 	#main {
 		position: relative;
-		display: flex;
-		flex-direction: column;
 		overflow: auto;
 	}
 
@@ -1381,7 +1379,7 @@
 			#me {
 				padding: 0;
 				height: 20em;
-				overflow: auto;
+				overflow: hidden;
 			}
 
 				#me .pic {
