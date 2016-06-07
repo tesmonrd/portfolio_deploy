@@ -1346,7 +1346,7 @@
 		}
 		#bio_nav li{
 			float: left;
-			margin: 2% 4% 4% 4%;
+			margin: 2% 4% 4% 2%;
 		}
 		#bio_nav a:hover {
 			color: #FF5600;
